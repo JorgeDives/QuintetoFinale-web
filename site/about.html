@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="es">
+  <head>
+    <title>Nosotros - Quinteto Finale</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css" id="main-styles-link">
+    
+    <style>
+        .ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+
+        /* --- ESTILOS PERSONALIZADOS --- */
+        
+        /* 1. Forzar texto normal (no todo mayúsculas) */
+        h1, h2, h3, h4, h5, h6, .brand, .nav-link, .button, .heading-6, .musico-instrumento {
+            text-transform: none !important;
+        }
+
+        /* 2. Instagram Link Footer */
+        .insta-link {
+            color: #888;
+            margin-left: 10px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        .insta-link:hover {
+            color: #051a8f; 
+            text-decoration: none;
+        }
+
+        /* 3. Estilo para las fotos de los músicos */
+        .musico-img {
+            border-radius: 50%; /* Hace la foto redonda */
+            width: 200px;
+            height: 200px;
+            object-fit: cover; /* Evita que la foto se deforme */
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        /* Efecto al pasar el ratón por la foto (opcional pero queda bonito) */
+        .musico-box:hover .musico-img {
+            transform: scale(1.05);
+        }
+        
+        .musico-box {
+            margin-bottom: 50px; /* Un poco más de espacio entre filas */
+            text-align: center;
+        }
+        
+        .musico-instrumento {
+            color: #fe4a91; /* Color rosa corporativo */
+            font-weight: bold;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        /* --- ARREGLO DE VELOCIDAD --- */
+        /* 1. Ocultamos el preloader visualmente para que no moleste */
+        .preloader {
+            display: none !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+            z-index: -9999 !important;
+        }
+        
+        /* 2. Forzamos que la página sea visible inmediatamente */
+        .page {
+            opacity: 1 !important;
+            visibility: visible !important;
+            animation: none !important; /* Anula cualquier animación de entrada lenta */
+        }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+      </div>
+    </div>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="page">
+      
+      <header class="section page-header">
+        <div class="rd-navbar-wrap rd-navbar-absolute">
+          <nav class="rd-navbar rd-navbar-creative" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px" data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <div class="rd-navbar-panel">
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <div class="rd-navbar-brand">
+                    <span class="brand" style="font-size: 24px; font-weight: bold; color: #ffffff; cursor: default; text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">
+                      Quinteto Finale
+                    </span>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Inicio</a></li>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="about.html">Nosotros</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacto</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <section class="section section-bredcrumbs" style="background: url(images/breadcrumbs-1920x440.jpg) no-repeat center / cover">
+        <div class="container context-dark breadcrumb-wrapper text-left">
+          <h1>Sobre Nosotros</h1>
+          <ul class="breadcrumbs-custom">
+            <li><a href="index.html">Inicio</a></li>
+            <li class="active">Nosotros</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-lg custom-image-section">
+        <div class="container relative-container">
+          <div class="row row-30 row-md-60 justify-content-center">
+            <div class="col-md-10 text-center">
+              <h2>Nuestra Historia</h2>
+              <div class="heading-6">Música de cámara y repertorio de viento.</div>
+              <p style="margin-top: 20px;">
+                El Quinteto Finale nace con la vocación de difundir el amplio repertorio existente para quinteto de viento clásico. Formado por músicos profesionales titulados, nuestro objetivo es acercar la música clásica a todos los públicos a través de una propuesta novedosa, dinámica y de alta calidad musical.
+                <br><br>
+                Desde nuestra formación, hemos participado en diversos ciclos de conciertos, eventos institucionales y ceremonias privadas, adaptando siempre nuestro repertorio e incluso la propia formación a las necesidades de cada ocasión para que cada actuación sea única y memorable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-lg bg-gray-100">
+        <div class="container text-center">
+          <h2 class="custom-title"><span>Componentes</span></h2>
+          
+          <div class="row justify-content-center mt-5">
+            
+            <div class="col-md-6 col-lg-4 musico-box">
+               <img src="images/index-1-1-220x220.jpg" alt="Flautista" class="musico-img"> 
+               <h4>Alejandra</h4>
+               <p class="musico-instrumento">Flauta</p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 musico-box">
+               <img src="images/index-1-2-220x220.jpg" alt="Clarinete" class="musico-img">
+               <h4>Jorge</h4>
+               <p class="musico-instrumento">Clarinete</p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 musico-box">
+               <img src="images/index-1-3-220x220.jpg" alt="Oboista" class="musico-img">
+               <h4>Luis</h4>
+               <p class="musico-instrumento">Oboe</p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 musico-box">
+               <img src="images/index-1-4-220x220.jpg" alt="Trompista" class="musico-img">
+               <h4>Andrea</h4>
+               <p class="musico-instrumento">Trompa</p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 musico-box">
+               <img src="images/index-1-5-220x220.jpg" alt="Fagotista" class="musico-img">
+               <h4>Ángel</h4>
+               <p class="musico-instrumento">Fagot</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer class="section footer-2">
+        <div class="container">
+          <div class="row row-40 justify-content-between">
+            
+            <div class="col-md-6 col-lg-6">
+               <div class="footer-logo">
+                  <h3 style="color: white; margin-top: 0;">Quinteto Finale</h3>
+               </div>
+              <p>Música de cámara profesional para todo tipo de eventos y conciertos.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+              <h5 class="text-white title">Contacto</h5>
+              <ul class="contact-box">
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-map-marker accent-icon"></span></div>
+                    <div class="unit-body">Albacete, España</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-phone accent-icon"></span></div>
+                    <div class="unit-body">
+                      <ul class="list-phones">
+                        <li>+34 611 040 919</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-email-outline accent-icon"></span></div>
+                    <div class="unit-body">quintetofinale@gmail.com</div>
+                  </div>
+                </li>
+              </ul>
+              <div class="group-md group-middle social-items">
+                  <a class="icon icon-md novi-icon mdi mdi-instagram" href="https://www.instagram.com/quintetofinale/" target="_blank"></a>
+                  <a class="insta-link" href="https://www.instagram.com/quintetofinale/" target="_blank">@quintetofinale</a>
+              </div>
+            </div>
+
+          </div>
+          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>Quinteto Finale</span>. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+    
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
